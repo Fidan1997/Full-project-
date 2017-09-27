@@ -1,0 +1,58 @@
+#guzesht{
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url('../images/slider/2.jpg');
+	background-size:cover;
+	z-index: 4;
+}
+
+.two,.three,.four{
+	 margin-top: 15px;
+     color: #fff;
+     font-family: Proxima Nova;
+     font-size: 18px;
+     font-weight: bold;
+     line-height: 1.39;
+     list-style-type:none;
+     text-align: left;
+}
+span{
+	margin-left:10px;
+	font-size:15px;
+
+}
+.three,.first,.four,{
+	color: #e0d049 !important;
+	font-family: Proxima Nova;
+	
+}.text{
+	font-size: 18px;
+}
+.four{
+border-style: dotted;
+padding:20px;
+border-radius:5px;
+width:364px;
+
+}
+.first{	
+		list-style-type:none;
+		text-align: left;
+
+}
+#guzesht:before{
+		content:"";
+		position: absolute;
+		left:0;
+		height:100%;
+		width:100%;
+		background-color: rgba(0, 38, 51, 0.8);
+		z-index: -1;
+	}
+	.col-md-6{
+		text-align: center;
+		margin-top:96px;
+	}
