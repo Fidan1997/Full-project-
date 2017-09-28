@@ -1,4 +1,4 @@
-#guzesht{
+#guzesht,#pay,#repair,#preference{
 	position: absolute;
 	top:0;
 	left:0;
@@ -7,6 +7,22 @@
 	background:url('../images/slider/2.jpg');
 	background-size:cover;
 	z-index: 4;
+}
+
+#guzesht:before,#pay:before,#repair:before,#preference:before{
+		content:"";
+		position: absolute;
+		left:0;
+		height:100%;
+		width:100%;
+		background-color: rgba(0, 38, 51, 0.8);
+		z-index: -1;
+	}
+
+
+h3{
+	font-family: Proxima Nova;
+	font-weight: bold;
 }
 
 .two,.three,.four{
@@ -21,18 +37,27 @@
 }
 span{
 	margin-left:10px;
-	font-size:15px;
+	font-size:16px;
+
 
 }
-.three,.first,.four,{
+.three,.first,.text1{
 	color: #e0d049 !important;
 	font-family: Proxima Nova;
+		font-weight: bold;
+		line-height:30px;
 	
-}.text{
-	font-size: 18px;
+	
+}
+
+.text{
+	font-size: 12px;
+	
 }
 .four{
-border-style: dotted;
+
+border:2.5px dotted;
+color: #e0d049;
 padding:20px;
 border-radius:5px;
 width:364px;
@@ -43,16 +68,29 @@ width:364px;
 		text-align: left;
 
 }
-#guzesht:before{
-		content:"";
-		position: absolute;
-		left:0;
-		height:100%;
-		width:100%;
-		background-color: rgba(0, 38, 51, 0.8);
-		z-index: -1;
-	}
+
 	.col-md-6{
 		text-align: center;
-		margin-top:96px;
+		margin-top:80px;
 	}
+
+
+
+	.white{
+		color:white !important;
+	}
+	.buttonbefore{
+		padding:12px 13px 10px 12px;
+		border-radius: 100px;
+        background-color: #1a91ba;
+        border: solid 3px #1a91ba;
+        font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: bold;
+   text-decoration: none;
+  color: #ffffff;
+	}
+	
+
+
+

@@ -409,7 +409,7 @@
 		}
 
 /*---------------Contact and About------------------*/
-#contact,#about,#pay{
+#contact,#about{
 
 	position: absolute;
 	top:0;
@@ -419,7 +419,7 @@
 	background-size:cover;
 	z-index: 4;
 }
-	#contact:before,#about:before,#pay:before{
+	#contact:before,#about:before{
 		content:"";
 		position: absolute;
 		left:0;
@@ -429,7 +429,7 @@
 		z-index: -1;
 	}
 
-	#contact .contact-list,#about .about-list,#pay .pay-list{
+	#contact .contact-list,#about .about-list{
 		margin:0;
 		padding:0;
 		display: inline-block;
